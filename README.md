@@ -33,24 +33,24 @@ This project demonstrates how to process, chunk, and index documents using LangC
   ```bash
     python3 -m venv venv
     source venv/bin/activate   # On Windows: venv\Scripts\activate
-     ```
+  ```
 3. Install dependencies
    ```bash
       pip install -r requirements.txt
-    ```
+   ```
 4. Set up your .env file.
   ```bash
     OPEN_AI_API_KEY=your_openai_api_key
-   ```
+  ```
 ## USAGE
-### SCRAPPING WEB PAGE FOR Q&A
-### PDF Q&A
+#### 1. SCRAPPING WEB PAGE FOR Q&A
+#### 2. PDF Q&A
 
 ## TECH STACKS USED
-1. OPENAI EMBEDDINGS
-2. LANGCHAIN
-3. BEAUTIFUL SOUP
-4. CHROMA DB
+#### 1. OPENAI EMBEDDINGS
+#### 2. LANGCHAIN
+#### 3. BEAUTIFUL SOUP
+#### 4. CHROMA DB
 
 ## RAG WORKFLOW FOR DOCUMENT PROCESSING AND CREATING A Q&A WITH ITS VECTORE STORAGE
 
